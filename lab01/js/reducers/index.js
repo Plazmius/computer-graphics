@@ -1,3 +1,3 @@
 import { combineReducers } from "redux";
-
-export default combineReducers({});
+import lsystem from "./lsystem";
+export default combineReducers({ lsystem });

@@ -4,6 +4,10 @@ class Point {
         this.y = y;
     }
 
+    get coords() {
+        return [this.x, this.y];
+    }
+
     static move(point, vector) {
         return new Point(point.x + vector.x, point.y + vector.y);
     }
