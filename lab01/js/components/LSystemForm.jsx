@@ -2,7 +2,7 @@ import React from "react";
 import TextField, { HelperText, Input } from '@material/react-text-field';
 import Button from '@material/react-button';
 
-const getTextField = (label, component) => (<div style={{ marginBottom: "10px" }}>
+const getTextField = (label, component) => (<div style={{ marginBottom: "10px", width: "100%" }}>
     <TextField
         label={label}
         outlined={true}

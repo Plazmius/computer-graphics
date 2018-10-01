@@ -21,22 +21,3 @@ $field-box-size: 50px;
     margin-left: auto;
     margin-right: auto;
 }
-
-.field-row {
-    height: $field-box-size;
-    margin: 1px;
-    .field-cell {
-        margin: 1px;
-        display: inline-block;
-        width: $field-box-size;
-        height: $field-box-size;
-
-        &.empty {
-            background: #f3f2f3;
-        }
-
-        &.fire {
-            background: red;
-        }
-    }
-}
